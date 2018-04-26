@@ -23,3 +23,13 @@ function prependKitten(name) {
     kittens2.unshift(name)
       return kittens2
 }
+function removeLastKitten() {
+  var kittens2=[...kittens]
+    kittens2.pop()
+      return kittens2
+}
+function removeFirstKitten() {
+  var kittens2=[...kittens]
+    kittens2.shift()
+      return kittens2
+}
